@@ -22,7 +22,7 @@ public class Universal {
 
     public void initStars() {
         stars.clear();
-        final int step = 100;
+        final int step = 300;
         for (int i = 0; i < GameScreen.WORLD_HEIGHT; i += step) {
             for (int j = 0; j < GameScreen.WORLD_WIDTH; j += step) {
                 stars.add(new Star(MathUtils.random(j, j + step), MathUtils.random(i, i + step)));

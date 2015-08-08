@@ -13,7 +13,6 @@ public class RocketApp extends Game {
     @Override
     public void create() {
         fps = new FPSLogger();
-
         this.setScreen(new GameScreen(this));
     }
 
