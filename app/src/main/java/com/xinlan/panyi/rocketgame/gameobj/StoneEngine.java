@@ -13,7 +13,7 @@ import com.xinlan.panyi.rocketgame.screen.GameScreen;
  */
 public class StoneEngine {
     public static final int MAX_TYPE = 8;
-    public static final int MAX_STONE_NUM = 300;
+    public static final int MAX_STONE_NUM = 400;
 
     public TextureRegion stone1Texture, stone2Texture, stone3Texture, stone4Texture,
             stone5Texture, stone6Texture, stone7Texture, stone8Texture;

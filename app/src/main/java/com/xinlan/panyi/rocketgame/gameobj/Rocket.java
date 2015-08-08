@@ -26,8 +26,8 @@ public class Rocket extends BaseObject {
     private GameScreen context;
     private TextureRegion rocketTexture;
     private Vector2 force;//计算所受合力
-    private float maxSpeed = 320f;// 最大速度
-    public static final float maxForce = 700f;//飞船制动力
+    private float maxSpeed = 300f;// 最大速度
+    public static final float maxForce = 800f;//飞船制动力
 
     private float deadTimeCount = 0;
     private static final float DEAD_WAIT_TIME = 2.0f;

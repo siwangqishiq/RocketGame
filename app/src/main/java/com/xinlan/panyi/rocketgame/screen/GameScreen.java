@@ -16,8 +16,8 @@ import com.xinlan.panyi.rocketgame.gameobj.Universal;
 /**
  */
 public final class GameScreen extends DefautScreen {
-    public static final int WORLD_WIDTH = 10000;//世界宽
-    public static final int WORLD_HEIGHT = 6000;//世界高
+    public static final int WORLD_WIDTH = 12000;//世界宽
+    public static final int WORLD_HEIGHT = 7000;//世界高
 
     public static final int SCREEN_HEIGHT = 480;
     public static final int SCREEN_WIDTH = 800;
